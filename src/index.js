@@ -4,9 +4,10 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import './index.css';
 
+import reducers from './reducers';
 
 render(
-  <Provider store={createStore()}>
+  <Provider store={createStore(reducers)}>
     <App />
   </Provider>,
   document.getElementById('root')
