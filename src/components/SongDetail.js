@@ -9,7 +9,7 @@ const SongDetail = ({ song }) => {
             <p>Title: {song.title}</p>
             <p>Duration: {song.duration}</p>
         </div>
-    );
+        );
     }
 
    
