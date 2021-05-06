@@ -1,4 +1,5 @@
 import AppHeader from './components/AppHeader';
+import AppFooter from './components/AppFooter';
 import SongList from './components/SongList';
 import SongDetail from './components/SongDetail';
 
@@ -12,6 +13,7 @@ const App = () => {
             <div className="right panel">
                 <SongDetail />
             </div>
+            <AppFooter />
         </div>
     )
 }
