@@ -7,12 +7,14 @@ const App = () => {
     return (
         <div>
             <AppHeader />
-            <div className="left">
-                 <SongList />
-            </div>
-            <div className="right panel">
-                <SongDetail />
-            </div>
+                <div className="container">
+                    <div className="left">
+                        <SongList />
+                    </div>
+                    <div className="right panel">
+                        <SongDetail />
+                    </div>
+                </div>
             <AppFooter />
         </div>
     )
